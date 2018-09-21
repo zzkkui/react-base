@@ -1,0 +1,23 @@
+/* 入场 */
+.fade-enter {
+  opacity: 0
+}
+.fade-enter-active {
+  opacity: 46px;
+  transition: opacity 3s ease-in;
+}
+.fade-enter-done {
+  opacity: 46px;
+  /* color: red; */
+}
+/* 出场 */
+.fade-exit {
+  opacity: 46px;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 3s ease-in;
+}
+.fade-exit-done {
+  opacity: 0;
+}
